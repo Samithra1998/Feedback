@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Book Shop</string>
+    <string name="text1">Feedback</string>
+    <string name="text2">Update Feedback</string>
+    <string name="textView2">Enter Your Name</string>
+    <string name="textView3">Enter Your Email</string>
+    <string name="textView4">Select New Feedback Type</string>
+    <string name="textView5">Your Feedback</string>
+    <string name="textView6">Edit Your Feedback</string>
+    <string name="btn1">Submit</string>
+    <string name="btn2">Update</string>
+    <string-array name="names">
+        <item>Suggestions</item>
+        <item>bugs</item>
+        <item>Praise</item>
+        <item>Gripe</item>
+    </string-array>
+</resources>

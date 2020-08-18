@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update);
+        setContentView(R.layout.activity_main);
 
         Spinner myspinner = (Spinner)findViewById(R.id.spinner1);
 
@@ -24,16 +24,5 @@ public class MainActivity extends AppCompatActivity {
         myspinner.setAdapter(myadapter);
     }
 
-    /*public void changeIntent() {
-        btn = (Button)findViewById(R.id.btn1);
 
-        btn.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent intent = new Intent(MainActivity.this,MainActivity2.class);
-                        startActivity(intent);
-                    }
-                }
-        );*/
     }
